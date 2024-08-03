@@ -15,7 +15,7 @@ The following project is focused on the development of a chatbot based on langua
 The proposal of the first architecture is shows in the following image:
 
 <p align="center">
-  <img src="Images/General_arquitecture.png" alt="Pricing" style="width: 80%;">
+  <img src="Images/General_arquitecture.png" alt="GA" style="width: 80%;">
 </p>
 
 
@@ -38,13 +38,9 @@ The main reasons why it was decided to choose this model and this approach to us
 Moreover, the choice of the model GPT4 o mini response to the reason that his model [is the most cost-efficient](https://openai.com/api/pricing/) model currently in OpenAI,
 and it is  smarter and cheaper than GPT-3.5 Turbo. The following image shows the pricing of this model: 
 
-<table style="width:100%; text-align:center;">
-  <tr>
-    <td>
-      <img src="Images/pricing.png" alt="Pricing" style="width: 80%;">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="Images/pricing.png" alt="Pricing" style="width: 80%;">
+</p>
 
 
 ### 1.3) SQL Agent
@@ -75,13 +71,11 @@ This architecture will not be analyzed in much detail. The reasons why this opti
 The general structure of this architecture is presented below:
 
 
-<table style="width:100%; text-align:center;">
-  <tr>
-    <td>
-      <img src="Images/open_source.png" alt="Pricing" style="width: 80%;">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="Images/open_source.png" alt="open_source" style="width: 80%;">
+</p>
+
+
 The idea is to integrate some open source language model. This can be done from huggingface which is a famous repository of models mainly based on transformers. Including language models.
 
 Using langchain is an advantage in this sense because it is a unified framework in which you can integrate different models.
